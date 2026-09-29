@@ -29,6 +29,13 @@
             </div>
             <button type="submit" class="btn btn-block">Entrar</button>
         </form>
+        <div class="nav-links">
+              <p>Já tem conta? <a href="login.php">Fazer login</a></p>
+            </div>
+            <a href="login.php" class="btn btn-block"> voltar para login</a>
+            <div class="dica-navegacao">
+                <strong>Fluxo:</strong> Cadastro → login → Painel → Gerenciar Livros
+            </div>
     </div>
 </body>
 
