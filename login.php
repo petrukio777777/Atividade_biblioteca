@@ -34,7 +34,7 @@
             </div>
             <a href="cadastro.php" class="btn btn-voltar"> voltar para Cadastro</a>
             <div class="dica-navegacao">
-                <strong>Fluxo:</strong> Cadastro → login → Painel → Gerenciar Livros
+                <strong>Fluxo:</strong> login → Painel → Gerenciar Livros
             </div>
     </div>
 </body>
