@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br
 ">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de usuario - biblioteca</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Cadastro de Usuario</h1>
         <p class="subtitulo">Crie sua conta para acessar o sistema da biblioteca</p>
         <?php
-        if(isset ($_GET['erro']) && $_GET['erro'] === 'email'){
-            echo'<div class="mensagem-erro>Este email já está cadastrado.</div>';
+        if (isset($_GET['erro']) && $_GET['erro'] === 'email') {
+            echo '<div class="mensagem-erro>Este email já está cadastrado.</div>';
         }
         ?>
+
+        <form action="Salvar_usuario.php" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="Email" id="email" name="email" placeholder="Digite seu Email" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="senha" id="senha" name="senha" placeholder="Digite sua Senha" required>
+            </div>
+            <button type="submit" class="btn btn-block">Cadastrar</button>
+        </form>
+        <div class="nav-links">
+              <p>Já tem conta? <a href="login.php">Fazer login</a></p>
+            </div>
+            <a href="login.php" class="btn btn-block"> voltar para login</a>
+            <div class="dica-navegacao">
+                <strong>Fluxo:</strong> Cadastro → login → Painel → Gerenciar Livros
+            </div>
     </div>
 </body>
+
 </html>
