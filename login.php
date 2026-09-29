@@ -27,7 +27,7 @@
                 <label for="senha">Senha</label>
                 <input type="senha" id="senha" name="senha" placeholder="Digite sua Senha" required>
             </div>
-            <button></button>
+            <button type="submit" class="btn btn-block">Entrar</button>
         </form>
     </div>
 </body>
