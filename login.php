@@ -32,7 +32,7 @@
         <div class="nav-links">
               <p>Não tem conta? <a href="login.php">faça o Cadastro</a></p>
             </div>
-            <a href="cadastro.php" class="btn btn-block"> voltar para Cadastro</a>
+            <a href="cadastro.php" class="btn btn-voltar"> voltar para Cadastro</a>
             <div class="dica-navegacao">
                 <strong>Fluxo:</strong> Cadastro → login → Painel → Gerenciar Livros
             </div>
