@@ -30,9 +30,9 @@
             <button type="submit" class="btn btn-block">Entrar</button>
         </form>
         <div class="nav-links">
-              <p>Já tem conta? <a href="login.php">Fazer login</a></p>
+              <p>Não tem conta? <a href="login.php">faça o Cadastro</a></p>
             </div>
-            <a href="login.php" class="btn btn-block"> voltar para login</a>
+            <a href="cadastro.php" class="btn btn-block"> voltar para Cadastro</a>
             <div class="dica-navegacao">
                 <strong>Fluxo:</strong> Cadastro → login → Painel → Gerenciar Livros
             </div>
