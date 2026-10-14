@@ -6,12 +6,14 @@ include("verificar_sessao.php");
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel - biblioteca</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Olá, <?php echo $_SESSION['nome']; ?></h1>
@@ -29,10 +31,11 @@ include("verificar_sessao.php");
             </a>
         </div>
         <div class="dica-navegacao">
-<strong>Fluxo:</strong>
-Painel → Cadastrar Livro ou Listar Livros → Editar/Excluir 
+            <strong>Fluxo:</strong>
+            Painel → Cadastrar Livro ou Listar Livros → Editar/Excluir
         </div>
     </div>
-    
+
 </body>
+
 </html>

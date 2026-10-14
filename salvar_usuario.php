@@ -10,7 +10,7 @@ $senha = $_POST['senha'];
 $sqlVerificar = "SELECT id FROM usuarios WHERE email = '$email'";
 $resultadoVerificar = mysqli_query($conexao, $sqlVerificar);
 
-if(mysqli_num_rows($resultadoVerificar) > 0){
+if (mysqli_num_rows($resultadoVerificar) > 0) {
     header("location: cadastro.php?erro=email");
     exit();
 }

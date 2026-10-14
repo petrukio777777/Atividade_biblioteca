@@ -25,12 +25,12 @@
             </div>
             <div class="form-group">
                 <label for="senha">Senha</label>
-                <input type="senha" id="senha" name="senha" placeholder="Digite sua Senha" required>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required>
             </div>
             <button type="submit" class="btn btn-block">Entrar</button>
         </form>
         <div class="nav-links">
-              <p>Não tem conta? <a href="login.php">faça o Cadastro</a></p>
+              <p>Não tem conta? <a href="cadastro.php">faça o Cadastro</a></p>
             </div>
             <a href="cadastro.php" class="btn btn-voltar"> voltar para Cadastro</a>
             <div class="dica-navegacao">

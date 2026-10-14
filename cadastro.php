@@ -19,7 +19,7 @@
         }
         ?>
 
-        <form action="Salvar_usuario.php" method="POST">
+        <form action="salvar_usuario.php" method="POST">
             <div class="form-group">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
@@ -30,17 +30,17 @@
             </div>
             <div class="form-group">
                 <label for="senha">Senha</label>
-                <input type="senha" id="senha" name="senha" placeholder="Digite sua Senha" required>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua Senha" required>
             </div>
             <button type="submit" class="btn btn-block">Cadastrar</button>
         </form>
         <div class="nav-links">
-              <p>Já tem conta? <a href="login.php">Fazer login</a></p>
-            </div>
-            <a href="login.php" class="btn btn-block"> voltar para login</a>
-            <div class="dica-navegacao">
-                <strong>Fluxo:</strong> Cadastro → login → Painel → Gerenciar Livros
-            </div>
+            <p>Já tem conta? <a href="login.php">Fazer login</a></p>
+        </div>
+        <a href="login.php" class="btn btn-block"> voltar para login</a>
+        <div class="dica-navegacao">
+            <strong>Fluxo:</strong> Cadastro → login → Painel → Gerenciar Livros
+        </div>
     </div>
 </body>
 
