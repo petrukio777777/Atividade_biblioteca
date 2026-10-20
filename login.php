@@ -30,12 +30,12 @@
             <button type="submit" class="btn btn-block">Entrar</button>
         </form>
         <div class="nav-links">
-              <p>Não tem conta? <a href="cadastro.php">faça o Cadastro</a></p>
-            </div>
-            <a href="cadastro.php" class="btn btn-voltar"> voltar para Cadastro</a>
-            <div class="dica-navegacao">
-                <strong>Fluxo:</strong> login → Painel → Gerenciar Livros
-            </div>
+            <p>Não tem conta? <a href="cadastro.php">faça o Cadastro</a></p>
+        </div>
+        <a href="cadastro.php" class="btn btn-voltar"> voltar para Cadastro</a>
+        <div class="dica-navegacao">
+            <strong>Fluxo:</strong> login → Painel → Gerenciar Livros
+        </div>
     </div>
 </body>
 

@@ -13,6 +13,7 @@ include("verificar_sessao.php");
     <title>Cadastrar livros - bibliotecac</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Cadastrar Livro</h1>
